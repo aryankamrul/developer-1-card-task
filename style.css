@@ -131,7 +131,7 @@ button{
     transform: translateY(-40px);
 }
 .form-tag{
-    t
+    
     margin: 40px 8%;
     background: wheat;
     padding: 30px;
@@ -144,7 +144,4 @@ input, textarea{
     padding: 10px;
     border-radius: 4px;
     border: none;
-}
-option{
-    padding: 10px;
 }
