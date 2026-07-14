@@ -1,0 +1,132 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    
+}
+nav{
+    margin: 40px 8%;
+    
+   
+}
+.nav-section h2{
+    font-size: 30px;
+    
+    font-weight: 900;
+   
+    
+}
+.nav-section span{
+    color: #42a5e3;
+}
+.nav-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.nav-section ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+.nav-section a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.common-btn{
+    padding: 10px 40px;
+    background: #4c1fa1;
+    border-radius: 8px;
+    color:whitesmoke;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.common-btn:hover{
+    background: #b84916;
+    transform: translateX(-30px);
+}
+
+
+section{
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    align-items: center;
+    
+   margin: 100px;
+   
+
+}
+.profile-card{
+    
+
+    background-color: bisque;
+    width: 200px;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.3s;
+}
+.profile-card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.profile-card h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+.profile-card span{
+    color: #b84916;
+    font-style: italic;
+}
+.profile-card h5{
+    font-weight: bold;
+    font-size: 16px;
+    color: brown;
+}
+.profile-card p{
+    font-size: 11px;
+    color: #2a2923;
+}
+.profile-card h6{
+
+}
+button{
+    padding: 10px 30px;
+    background: #b84916;
+    border: none;
+    border-radius: 12px;
+    color: #ffff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.profile-card:hover{
+    background:#42a5e3 ;
+    transform: translateY(-20px);
+}
+.profile-card1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+
+}
+.profile-card1{
+    
+
+    background-color: rgb(207, 143, 64);
+    width: 200px;
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.3;
+    transform: translateY(-30px);
+}
+.profile-card1:hover{
+    background: #4c1fa1;
+    transform: translateY(-40px);
+}
